@@ -15,7 +15,7 @@ module.exports = {
   desc: "To kill any user",
   category: "Reaction",
   usage: `kill @user`,
-  react: "🍁",
+  react: "💫",
   start: async (Miku, m, { text, prefix, args,mentionByTag }) => {
     var pat = await fetchJson(`https://api.waifu.pics/sfw/kill`);
     try {
