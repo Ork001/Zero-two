@@ -7,7 +7,7 @@ module.exports = {
 
     name: "owner", 
     desc: "To view the list of current Mods", 
-    alias: ["modlist","mods","mod"],
+    alias: ["mod"],
     category: "Core", 
     usage: "owner", 
     react: "🏅", 
