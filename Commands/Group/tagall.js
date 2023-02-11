@@ -7,7 +7,7 @@ module.exports = {
   desc: "Tag all group member",
   category: "Group",
   usage: "tagall",
-  react: "🍁",
+  react: "📡",
   start: async (
     Miku,
     m,
