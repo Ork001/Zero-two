@@ -6,7 +6,7 @@ module.exports = {
   category: "Core",
   start: async (Miku, m, {prefix,pushName,NSFWstatus}) => {
    let textHelpMenu = `Konichiwa *${pushName}* Senpai,
-I am *${botName}*, a bot developed by **.
+                 I am *${botName}*
 My prefix is: *${prefix}*
 Here's the list of my Commands.\n
    
@@ -186,7 +186,7 @@ _Powered By:_ *Team ATLAS*
 let buttons = [
     {
       buttonId: `${prefix}repo`,
-      buttonText: { displayText: "Source Code" },
+      buttonText: { displayText: "𝚉𝚎𝚛𝚘-𝚃𝚠𝚘" },
       type: 1,
     },
   ];
