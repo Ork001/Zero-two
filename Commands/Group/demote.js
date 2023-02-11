@@ -3,11 +3,11 @@ require("../../Core.js");
 
 module.exports = {
   name: "demote",
-  alias: ["dem"],
+  alias: ["zz"],
   desc: "Demote a member",
   category: "Group",
   usage: "demote @user",
-  react: "🍁",
+  react: "❗",
   start: async (
     Miku,
     m,
